@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-------------------- CSS LINK  -------------------->
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <section>
+    <div class="container">
+      <form>
+
+        <div class="step step_1 active">
+          <div class="form_group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName " name="firstName">
+          </div>
+          <div class="form_group">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName " name="lastName">
+          </div>
+          <div class="form_group">
+            <label for="nickName">Nick Name</label>
+            <input type="text" id="nickName " name="nickName">
+          </div>
+          <button type="button" class="next_btn">Next</button>
+        </div>
+
+        <div class="step step_2 ">
+          <div class="form_group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div class="form_group">
+            <label for="phone">Phone Number</label>
+            <input type="number" id="phone" name="phone_number">
+          </div>
+          <button type="button" class="previous_btn">Prev</button>
+          <button type="button" class="next_btn">Next</button>
+        </div>
+
+        <div class="step step_3 ">
+          <div class="form_group">
+            <label for="country">Country</label>
+            <input type="text" id="country" name="country">
+          </div>
+          <div class="form_group">
+            <label for="city">City</label>
+            <input type="text" id="city" name="city">
+          </div>
+          <div class="form_group">
+            <label for="post_code">Post Code</label>
+            <input type="text" id="post_code" name="post_code">
+          </div>
+          <button type="button" class="previous_btn">Prev</button>
+          <button type="submit" class="submit_btn">Submit</button>
+        </div>
+
+
+      </form>
+    </div>
+  </section>
+
+  <!-------------------- JS LINK  -------------------->
+  <script src="./java script/script.js"></script>
+</body>
+
+</html>
